@@ -1,0 +1,29 @@
+{
+  "name": "can-react-component-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "steal": {
+    "plugins": [
+      "steal-stache"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "can-component": "^4.4.4",
+    "can-react-component": "^1.0.1",
+    "can-stache": "^4.15.3",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "steal": "^2.1.7",
+    "steal-stache": "^4.1.2"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
