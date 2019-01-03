@@ -6,7 +6,12 @@ import stache from "can-stache";
 
 const CanJSComponent = Component.extend("InnerComponent", {
     tag: "inner-component",
-    view: stache("<div class='inner' style='border: solid 1px red;'>Inner text: {{text}}</div>")
+    view: stache("<div class='inner' style='border: solid 1px red;'>Inner text: {{text}}</div>"),
+    ViewModel: {
+        text: {
+            type: "string"
+        }
+    }
 });
 
 const ReactComponent = canReactComponent(CanJSComponent);
